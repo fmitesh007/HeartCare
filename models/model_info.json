@@ -1,0 +1,33 @@
+{
+    "model_name": "Logistic Regression",
+    "features": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_mapping": {
+        "0": "No heart disease recorded in dataset",
+        "1": "Heart disease recorded in dataset"
+    },
+    "positive_class": 1,
+    "dataset": "UCI Cleveland Heart Disease dataset",
+    "test_size": 0.2,
+    "random_state": 42,
+    "metrics": {
+        "Model": "Logistic Regression",
+        "Accuracy": 0.8852,
+        "Precision": 0.8387,
+        "Recall": 0.9286,
+        "F1 Score": 0.8814
+    }
+}
